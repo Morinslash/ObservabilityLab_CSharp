@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabApi", "LabApi\LabApi.csproj", "{A7B9DCEF-B0C7-4AEE-AD94-B447D3B81C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabLibrary", "LabLibrary\LabLibrary.csproj", "{35C0F3D8-E902-4141-9C63-F4201DBF1E56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B9DCEF-B0C7-4AEE-AD94-B447D3B81C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B9DCEF-B0C7-4AEE-AD94-B447D3B81C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B9DCEF-B0C7-4AEE-AD94-B447D3B81C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B9DCEF-B0C7-4AEE-AD94-B447D3B81C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C0F3D8-E902-4141-9C63-F4201DBF1E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C0F3D8-E902-4141-9C63-F4201DBF1E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C0F3D8-E902-4141-9C63-F4201DBF1E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C0F3D8-E902-4141-9C63-F4201DBF1E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
